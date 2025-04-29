@@ -30,21 +30,26 @@ project-folder-creator/
 ├── README.md
 ├── create_structure.py
 ├── requirements.txt          # (Optional - empty if no libraries needed)
-🚀 How to Use
-1. Clone the Repository
-bash
-Copy
-Edit
+```
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/sashjack0/project-folder-creator.git
 cd project-folder-creator
-2. Add Your Structure .txt File
-Place your custom tree-style .txt files inside the structures/ folder.
+```
 
-Example (cnn_classifier_structure.txt):
+### 2. Prepare Your Structure File
 
-bash
-Copy
-Edit
+Place your custom tree-style `.txt` files inside the `structures/` folder.
+
+Example (`cnn_classifier_structure.txt`):
+
+```bash
 cnn-image-classifier/
 ├── README.md
 ├── LICENSE
@@ -55,41 +60,66 @@ cnn-image-classifier/
 │   └── dataset.py
 ├── models/
 │   └── cnn_model.py
-...
-3. Run the Script
-bash
-Copy
-Edit
+├── training/
+│   ├── train.py
+│   ├── validate.py
+│   └── test.py
+├── utils/
+│   ├── metrics.py
+│   ├── logger.py
+│   └── helpers.py
+├── tests/
+│   ├── test_dataset.py
+│   └── test_model.py
+└── notebooks/
+    └── exploration.ipynb
+```
+
+### 3. Run the Script
+
+```bash
 python create_structure.py
+```
+
 Follow the prompts:
+- Select the structure `.txt` file
+- Enter the destination path
+- Project structure will be created automatically 🎯
 
-Select the structure file
+---
 
-Enter the destination path
+## 🛠 Requirements
 
-Watch your project structure generate instantly 🎯
+- Python 3.7 or higher
+- No external packages needed
 
-🛠 Requirements
-Python 3.7+
+---
 
-No external packages needed
+## 🔐 Security
 
-🔐 Security
-Local folder/file creation only — no network access
+- Local file and folder creation only — **no network access**
+- No sensitive data stored
+- Fully offline and secure
 
-No user data stored or transmitted
+---
 
-Safe for offline use
+## 🙌 Contributing
 
-🙌 Contributing
-Pull requests are welcome!
-If you have ideas for new features or improvements, feel free to open an issue.
+Pull requests are welcome!  
+Feel free to open issues to suggest new features, improvements, or report bugs.
 
-👨‍💻 Author
-Sachin Bhandary
-Prompt Engineer & AI Tool Developer
-GitHub: @sashjack0
+---
 
-📄 License
-Licensed under the MIT License.
+## 👨‍💻 Author
 
+**Sachin Bhandary**  
+*Prompt Engineer & AI Tool Developer*  
+GitHub: [@sashjack0](https://github.com/sashjack0)
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
