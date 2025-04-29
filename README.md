@@ -113,7 +113,7 @@ Feel free to open issues to suggest new features, improvements, or report bugs.
 ## 👨‍💻 Author
 
 **Sachin Bhandary**  
-*Prompt Engineer & AI Tool Developer*  
+*AI Engineer*  
 GitHub: [@sashjack0](https://github.com/sashjack0)
 
 ---
