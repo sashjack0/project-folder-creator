@@ -12,7 +12,7 @@ A simple Python tool to generate a project folder and file structure based on a 
 
 ## 📂 Example
 
-Input (`cnn_classifier_structure.txt`):
+Input (`structure.txt`):
 
 cnn-image-classifier/ ├── README.md ├── LICENSE ├── requirements.txt ├── configs/ │ └── config.yaml ├── datasets/ │ └── dataset.py ├── models/ │ └── cnn_model.py ...
 
