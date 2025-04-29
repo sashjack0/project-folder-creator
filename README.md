@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Folder Creator 🚀
 
 A simple Python tool to generate a project folder and file structure based on a visual tree-style `.txt` file.
