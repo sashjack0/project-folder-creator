@@ -1,63 +1,106 @@
 # Project Folder Creator 🚀
 
-A simple Python tool to generate a project folder and file structure based on a visual tree-style `.txt` file.
+A simple Python tool to generate a complete project folder and file structure based on a visual tree-style `.txt` file.
 
 ---
 
 ## 📋 Features
 
-- Parse tree-style text files with indentation or visual tree symbols
-- Automatically create deeply nested folders and files
-- Supports diagrams with `├──`, `└──`, `│` or indented plain text
-- Minimal, dependency-free implementation
-- Great for scaffolding new projects, fast!
+- Parse tree-style text files easily (supports ├──, └──, │ formats)
+- Automatically create nested folders and files
+- Lightweight, no external dependencies
+- Helps quickly scaffold new projects
+- Beginner-friendly, production-quality code
 
 ---
-
-## 📂 Example
-
-### Input (`structure.txt`):
 
 ## 📁 Project Structure
 
-project-folder-creator/ ├── assets/ # (Optional screenshots if you want) │ ├── structures/ # Structure templates │ └── cnn_classifier_structure.txt │ ├── .gitignore ├── LICENSE ├── README.md ├── create_structure.py ├── requirements.txt # (Optional - empty if no libraries needed)
+```bash
+project-folder-creator/
+├── assets/                  # (Optional screenshots if you want)
+│
+├── structures/               # Structure templates
+│   └── cnn_classifier_structure.txt
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── create_structure.py
+├── requirements.txt          # (Optional - empty if no libraries needed)
+🚀 How to Use
+Clone the repository:
 
-yaml
+bash
 Copy
 Edit
-
-### 🛠 Generated Folder Structure:
-
-Same as above — automatically created under the specified path.
-
----
-
-## 🚀 How to Use
-
-1. **Clone the repository:**
-
-```bash
 git clone https://github.com/sashjack0/project-folder-creator.git
 cd project-folder-creator
-Add a structure definition file (like cnn_classifier_structure.txt) inside the structures/ directory.
+Prepare your structure file:
 
-Run the script:
+Create a .txt file representing your desired project structure using tree symbols.
+
+Example: See structures/cnn_classifier_structure.txt provided.
+
+Run the tool:
 
 bash
 Copy
 Edit
 python create_structure.py
-Enter the path where you want the project created.
+Follow prompts:
 
-That's it! ✅
+Select the structure file
 
-📦 Requirements
-Python 3.7+
+Enter the path where you want the project created
 
-No external libraries required
+Done! 🎉
+
+📂 Example Input and Output
+Example cnn_classifier_structure.txt:
+bash
+Copy
+Edit
+cnn-image-classifier/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── configs/
+│   └── config.yaml
+├── datasets/
+│   └── dataset.py
+├── models/
+│   └── cnn_model.py
+├── training/
+│   ├── train.py
+│   ├── validate.py
+│   └── test.py
+├── utils/
+│   ├── metrics.py
+│   ├── logger.py
+│   └── helpers.py
+├── tests/
+│   ├── test_dataset.py
+│   └── test_model.py
+└── notebooks/
+    └── exploration.ipynb
+✅ The script will automatically create the entire project structure exactly as shown.
+
+🛠 Requirements
+Python 3.7 or higher
+
+No additional libraries needed (pure standard Python)
 
 📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for full details.
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-Happy building! 🛠️🚀
+🙌 Contributing
+Pull requests are welcome!
+Feel free to open issues to suggest new features, improvements, or fixes.
+
+🌟 Acknowledgements
+Inspired by the simplicity of tree-based project initialization.
+
+Built with ❤️ for making project setup faster.
+
+Happy building! 🚀
