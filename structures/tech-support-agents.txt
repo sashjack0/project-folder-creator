@@ -1,0 +1,15 @@
+tech-support-agents
+├── agents
+│   ├── memory_agent.py
+│   ├── kb_agent.py
+│   ├── fixer_agent.py
+│   └── escalation_agent.py
+├── tools
+│   ├── kb_database.json
+│   └── service_now.py
+├── workflows
+│   └── support_orchestrator.py
+├── langsmith_logs
+├── requirements.txt
+├── README.md
+└── architecture.png
